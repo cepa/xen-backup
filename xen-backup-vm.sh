@@ -8,8 +8,6 @@ then
     exit
 fi
 
-set -x
-
 # $1 remote command
 remote_exec() {
     chmod 0600 $PEMKEY
