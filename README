@@ -1,7 +1,3 @@
-XenServer Backup Scripts
-Copyright (C) 2012 HellWorx Software
-www.hellworx.com
-
 Backing up all VM running on a server:
 ./xen-backup-all.sh root@host host.pem
 
@@ -10,3 +6,6 @@ Backup VM by name:
 
 Restore VM:
 xe vm-import filename=vmname.xva
+
+Documentation:
+http://lukasz.cepowski.com/projects/xen-backup
